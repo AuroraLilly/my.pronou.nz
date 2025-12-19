@@ -36,13 +36,13 @@ export default {
       console.log(pronouns)
       // Doing names TODO
       let name = '';
-      let listBool = true;
-      while (name = '' && listBool){
-        let i = 0;
-        if (pronounsData.profiles.en.names[i].opinion == 'yes' || pronounsData.profiles.en.names[i].opinion == 'love'){
-          name += pronounsData.profiles.en.names[i].value;
-        }
-      }
+      // let listBool = true;
+      // while (name = '' && listBool){
+      //   let i = 0;
+      //   if (pronounsData.profiles.en.names[i].opinion == 'yes' || pronounsData.profiles.en.names[i].opinion == 'love'){
+      //     name += pronounsData.profiles.en.names[i].value;
+      //   }
+      // }
       if (name == ''){
         name += pronounsData.username
       }
